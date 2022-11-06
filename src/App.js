@@ -3,9 +3,7 @@ import {useState, useEffect} from 'react'
 import SearchIcon from './search.svg';
 import MediaCard from './components/MediaCard'
 
-//6e4b2976
-
-const URL = 'http://www.omdbapi.com?apikey=6e4b2976'
+const URL = 'http://www.omdbapi.com?apikey=INSERKEYHERE'
 
 const App = () => {
     const [searchTerm, setSearchTerm] = useState('');
